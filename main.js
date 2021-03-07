@@ -31,3 +31,28 @@ $('.prev i').click(function() {
     $('.fa-circle.active').next().removeClass("active");
     }
 });
+
+$('.fa-circle.uno').click(function() {
+    $('.fa-circle').removeClass("active");
+    $(this).addClass("active");
+    $('img').removeClass("active");
+    $('img.uno').addClass("active");
+});
+$('.fa-circle.due').click(function() {
+    $('.fa-circle').removeClass("active");
+    $(this).addClass("active");
+    $('img').removeClass("active");
+    $('img.due').addClass("active");
+});
+$('.fa-circle.tre').click(function() {
+    $('.fa-circle').removeClass("active");
+    $(this).addClass("active");
+    $('img').removeClass("active");
+    $('img.tre').addClass("active");
+});
+$('.fa-circle.quattro').click(function() {
+    $('.fa-circle').removeClass("active");
+    $(this).addClass("active");
+    $('img').removeClass("active");
+    $('img.quattro').addClass("active");
+});
